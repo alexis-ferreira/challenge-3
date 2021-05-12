@@ -1,0 +1,116 @@
+/* --------- GENERAL --------- */
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+
+
+
+body
+{
+    background-image: url(../images/bg-desktop.svg);
+    background-size: 1440px;
+    background-repeat: no-repeat;
+
+    width: 1440px;
+
+    background-color: #684BAF;
+}
+
+
+
+
+
+
+/* --------- HEADER -------- */
+
+header img
+{
+    margin: 60px 100px 50px 100px;
+
+    width: 200px;
+}
+
+
+
+
+
+
+
+/* -------- MAIN -------- */
+
+main
+{
+    display: flex;
+}
+
+main .leftMain>img
+{
+    margin: 50px 60px 50px 100px;
+
+    width: 750px;
+}
+
+main .rightMain>h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+
+    line-height: 60px;
+
+    width: 450px;
+
+    color: white;
+
+    margin-top: 98px;
+    margin-bottom: 30px;
+}
+
+main .rightMain>p
+{
+    color: white;
+
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    width: 430px;
+
+    line-height: 30px;
+
+    margin-bottom: 20px;
+}
+
+main .rightMain>.btn
+{
+    height: 50px;
+
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+main .rightMain .btn>a
+{
+    text-decoration: none;
+
+    background-color: #E782E8;
+
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+
+    padding: 15px 60px;
+
+    border-radius: 50px;
+
+    color: white;
+
+    transition: filter 300ms;
+}
+
+main .rightMain .btn>a:hover
+{
+    filter: drop-shadow(0 0 0.5rem black);
+}
