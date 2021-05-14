@@ -114,3 +114,147 @@ main .rightMain .btn>a:hover
 {
     filter: drop-shadow(0 0 0.5rem black);
 }
+
+
+
+
+
+
+
+/* ----------- FOOTER ----------- */
+
+footer .socialMedia
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .socialMedia>img
+{
+    width: 40px;
+
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+footer .socialMedia>img:last-child
+{
+    margin-right: 50px;
+}
+
+
+
+
+
+/* ----------- MEDIA QUERIES ------------ */
+
+@media screen AND (max-width: 375px){
+    
+    header img {
+        margin: 30px 0px 20px 30px;
+        
+        width: 120px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        width: 375px;
+
+        background-color: #684BAF;
+    }
+
+    main>.leftMain
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .leftMain>img {
+        margin: 40px auto;
+
+        width: 310px;
+    }
+
+    main>.rightMain
+    {
+        width: 375px;
+    }
+
+    main .rightMain>h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+
+        text-align: center;
+
+        line-height: 40px;
+
+        color: white;
+
+        margin: 20px auto;
+
+        width: 325px;
+    }
+
+    main .rightMain>p {
+    color: white;
+
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+    width: 285px;
+    
+    text-align: center;
+    
+    line-height: 30px;
+    
+    margin: 0 auto;
+    }
+
+    main .rightMain>.btn {
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .rightMain .btn>a {
+        text-decoration: none;
+        background-color: #FFFFFF;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding: 15px 70px;
+        border-radius: 50px;
+        color: #694BAF;
+        margin-top: 25px;
+        transition: filter 300ms;
+    }
+
+    footer .socialMedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .socialMedia>img {
+        width: 30px;
+
+        margin: 80px 5px 40px;
+    }
+
+    footer .socialMedia>img:last-child {
+    margin-right: 0px;
+    }
+}
